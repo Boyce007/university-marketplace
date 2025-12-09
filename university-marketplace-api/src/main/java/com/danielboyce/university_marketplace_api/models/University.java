@@ -12,9 +12,9 @@ import lombok.Data;
 public class University {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)    
-    private Long universityId;
-    private String universityName;
-    private String universityWebsite;
+    private Long Id;
+    private String Name;
+    private String Website;
 
 
 }
